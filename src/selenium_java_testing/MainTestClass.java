@@ -88,8 +88,8 @@ public class MainTestClass {
     private static void sendEmail(String subject, String body, String[] recipientEmails, String[] ccEmails) throws MessagingException, UnsupportedEncodingException {
         // SMTP server details for sending email
         final String smtpServer = "smtp.office365.com";
-        final String username = "rohan.raj@cadentgas.com";
-        final String password = "Baadshah@Rohan08";
+        final String username = "";
+        final String password = "";
 
         // Call the sendEmail method from SMTPMailServer class
         SMTPMailServer.sendEmail(subject, body, recipientEmails, ccEmails);
