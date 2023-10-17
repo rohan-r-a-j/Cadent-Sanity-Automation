@@ -1,0 +1,19 @@
+--------------------Steps Involved In Automating The Testing Of Cadent Gas Website-------------------
+
+Day 1 [05-Aug-23]: Master Template
+
+1. Do All Necessary Integration Including Java, Selenium & It's dependencies, Eclipse Kelper, Chrome driver
+2. Specified the driver path in the code.
+3. Ensured that wait time for an element to test is 15 at least 15 seconds.
+4. Wrote the code for Closing Title Message, and Accept All Cookies on the site.
+5. Realized that the test is being performed too fast so gave a delay of 2 seconds between each element.
+6. Performed Test for Navigation Bar of the site and also ensured that after each click, if site opens different             page, it redirects back to home page.
+7. Unable to perform Testing For Search Button.
+
+Day 2 [06-Aug-23]: Master Template
+
+1. As all the codes were in a single Java Class, so seperated code based on different functionalities or section into different classes to improve code readibility and convenience.
+2. Executed code for scrolling the site as website loads.
+3. Implemented Code for testing Social Media Links and Footer Elements.
+
+
