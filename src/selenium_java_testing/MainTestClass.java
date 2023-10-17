@@ -25,7 +25,7 @@ public class MainTestClass {
         ChromeOptions opt = new ChromeOptions();
         opt.addArguments("--incognito");
 
-        System.setProperty("webdriver.chrome.driver", "\\home\\ubuntu\\chrome-headless-shell-linux64\\chrome-headless-shell");
+        System.setProperty("webdriver.chrome.driver", ".\\driver\\chrome-headless-shell");
         WebDriver driver = new ChromeDriver(opt);
         System.out.println("Opened Chrome In Incognito Mode");
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS); // Waits for 15 seconds for an element to complete
