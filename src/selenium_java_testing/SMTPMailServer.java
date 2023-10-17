@@ -11,8 +11,8 @@ public class SMTPMailServer {
     public static void sendEmail(String subject, String body, String[] recipientEmails, String[] ccEmails) throws UnsupportedEncodingException {
         // SMTP server details for Outlook
         final String smtpServer = "smtp.office365.com";
-        final String username = "rohan.raj@cadentgas.com";
-        final String password = "Baadshah@Rohan08";
+        final String username = "";
+        final String password = "";
 
         // Setting up properties for the SMTP server
         Properties props = new Properties();
